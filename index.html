@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Order</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- class="sm:bg-red-100 md:bg-yellow-100 lg:bg-green-100 xl:bg-blue-700 2xl:bg-purple-700" -->
+<body>
+    <div id="page" class="h-screen w-screen flex justify-center items-center">
+        <main class="w-10/12 h-5/6 flex flex-col bg-white rounded-3xl shadow-xl sm:w-9/12 md:w-6/12 lg:w-1/3 2xl:w-1/4">
+            <img src="./images/illustration-hero.svg" alt="meuf qui danse" class="rounded-3xl rounded-bl-none rounded-br-none">
+            <div class="flex flex-col h-full justify-evenly items-center text-center">
+                <h1 class="customTitle text-3xl font-black">Order Summary</h1>
+                <p class="customTxt w-4/6">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                <section id="box" class="w-11/12 sm:w-4/5 flex bg-sky-50 p-4 sm:p-6 rounded-xl items-center justify-between">
+                    <div class="flex">
+                        <img src="./images/icon-music.svg" alt="logo note de musique" class="pr-2 sm:pr-5">
+                        <div>
+                            <p class="customTitle font-black">Annual Plan</p>
+                            <p class="customTxt">$59.99/year</p>
+                        </div>
+                    </div>
+                    <a href="#" class="customAction font-bold underline">Change</a>
+                </section>
+                <button class="customAction2 w-4/5 h-14 text-white font-black rounded-xl shadow-xl">Proceed to Payment</button>
+                <button class="cancelO customTxt font-black">Cancel Order</button>
+            </div>
+        </main>
+    </div>
+    <script src="./test.js"></script>
+</body>
+</html>
